@@ -1,0 +1,19 @@
+.list_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+.list_container li {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.list_container li:hover {
+    color: #f87272;
+}
